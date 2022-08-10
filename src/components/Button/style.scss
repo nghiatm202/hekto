@@ -1,0 +1,11 @@
+.btn {
+    display: inline-block;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    font-size: 17px;
+    line-height: calc(20 / 17);
+    letter-spacing: 0.02em;
+    padding: 16px 40px;
+    text-decoration: none;
+    text-transform: capitalize;
+}

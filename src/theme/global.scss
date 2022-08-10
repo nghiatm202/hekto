@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+body {
+    line-height: 1;
+    color: var(--text-color);
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    outline: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.justifyBetween {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headline {
+    font-size: 42px;
+    line-height: calc(49 / 42);
+    color: #1A0B5B;
+}
