@@ -1,6 +1,6 @@
 # Figma Design
 
-https://bit.ly/3bHugPb
+Open [https://bit.ly/3bHugPb](https://bit.ly/3bHugPb) to view it.
 
 # Getting Started with Create React App
 
